@@ -77,7 +77,7 @@ Classification Report:
     macro avg       0.91      0.91      0.91      2497
     weighted avg       0.91      0.91      0.91      2497
 
-Confusion Matrix: conf-mat_genre.png
+Confusion Matrix: ![Confusion Matrix](conf-mat_genre.png)
 
 **Technology Stack**
 
