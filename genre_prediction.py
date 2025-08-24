@@ -10,7 +10,7 @@ Original file is located at
 # Music Genre Classification using a Pre-Processed GTZAN CSV
 # This script is lightweight, fully automated, and designed to prevent Colab crashes.
 
-# --- 1. Setup and Dependencies ---
+# --- 1. Setup and Dependencies ---#
 # Install necessary libraries
 !pip install matplotlib seaborn scikit-learn pandas kaggle tensorflow
 
