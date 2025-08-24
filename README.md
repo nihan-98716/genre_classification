@@ -60,21 +60,21 @@ Results
 The final 1D CNN model achieved a test accuracy of over 90%. The detailed performance across all genres can be seen in the classification report and the confusion matrix below.
 Classification Report:
 
-              precision    recall  f1-score   support
+                    precision   recall   f1-score   support
 
-       blues       0.91      0.88      0.89       250
-    classical       0.99      0.98      0.99       249
-     country       0.89      0.88      0.88       249
-       disco       0.88      0.89      0.88       250
-      hiphop       0.92      0.94      0.93       250
-        jazz       0.94      0.90      0.92       249
-       metal       0.96      0.98      0.97       250
-         pop       0.95      0.95      0.95       250
-      reggae       0.89      0.88      0.88       249
-        rock       0.81      0.84      0.82       251
+           blues       0.91      0.88      0.89       250
+       classical       0.99      0.98      0.99       249
+         country       0.89      0.88      0.88       249
+           disco       0.88      0.89      0.88       250
+          hiphop       0.92      0.94      0.93       250
+            jazz       0.94      0.90      0.92       249
+           metal       0.96      0.98      0.97       250
+             pop       0.95      0.95      0.95       250
+          reggae       0.89      0.88      0.88       249
+            rock       0.81      0.84      0.82       251
 
-    accuracy                           0.91      2497
-    macro avg       0.91      0.91      0.91      2497
+       accuracy                            0.91      2497
+       macro avg       0.91      0.91      0.91      2497
     weighted avg       0.91      0.91      0.91      2497
 
 Confusion Matrix: ![Confusion Matrix](conf-mat_genre.png)
