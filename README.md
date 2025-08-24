@@ -63,7 +63,7 @@ Classification Report:
               precision    recall  f1-score   support
 
        blues       0.91      0.88      0.89       250
-   classical       0.99      0.98      0.99       249
+    classical       0.99      0.98      0.99       249
      country       0.89      0.88      0.88       249
        disco       0.88      0.89      0.88       250
       hiphop       0.92      0.94      0.93       250
@@ -74,10 +74,10 @@ Classification Report:
         rock       0.81      0.84      0.82       251
 
     accuracy                           0.91      2497
-   macro avg       0.91      0.91      0.91      2497
-weighted avg       0.91      0.91      0.91      2497
+    macro avg       0.91      0.91      0.91      2497
+    weighted avg       0.91      0.91      0.91      2497
 
-Confusion Matrix:(This is where you would embed your confusion_matrix.png image)
+Confusion Matrix: conf-mat_genre.png
 
 **Technology Stack**
 
