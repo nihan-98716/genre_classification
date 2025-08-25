@@ -57,9 +57,11 @@ The model consists of the following layers:
 4. Training and Optimization
 
 The model was compiled with the Adam optimizer and the sparse_categorical_crossentropy loss function. To achieve optimal performance and prevent overfitting, Early Stopping was implemented. This technique monitors the validation loss and automatically stops the training process when the model's performance on the validation set ceases to improve, restoring the weights from the best-performing epoch.
+
 Results
 
 The final 1D CNN model achieved a test accuracy of over 90%. The detailed performance across all genres can be seen in the classification report and the confusion matrix below.
+
 Classification Report:
 
                     precision   recall   f1-score   support
