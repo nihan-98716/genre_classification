@@ -5,6 +5,7 @@ Project Overview
 This project implements and evaluates a high-accuracy deep learning model for classifying music into 10 distinct genres. The primary goal was to build an end-to-end machine learning pipeline, starting from data acquisition and preprocessing to training and evaluating a sophisticated neural network.
 
 The final model, a 1D Convolutional Neural Network (CNN), achieved a test accuracy of over 90%, demonstrating its effectiveness in capturing the complex temporal patterns within audio features.
+
 Technical Methodology
 
 The project follows a structured machine learning workflow, emphasizing robust data handling, advanced modeling, and clear evaluation.
@@ -22,6 +23,7 @@ To ensure efficiency and reproducibility while avoiding common memory limitation
     • Root Mean Square Energy
 
 This approach allows the project to focus on model architecture and performance rather than the computationally expensive step of raw audio feature extraction.
+
 2. Data Preprocessing
 
 Before training, the data undergoes two critical preprocessing steps using Scikit-learn:
